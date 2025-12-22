@@ -203,3 +203,59 @@ nav button svg{
   width: 100%;
   background-color: #111;
 }
+
+#page2{
+  height: 100vh;
+  width: 100%;
+  background-color: #111;
+  position: relative;
+  padding: 0vw 10.5vw;
+  padding-bottom: 8vw;
+  display: flex;
+  align-items: center;
+  border: 2px solid #222;
+  justify-content:space-between;
+ 
+}
+#page2-left{
+  height: 100%;
+  width: 40%;
+  /* background-color: #333; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  padding:3vw 0;
+}
+#page2-left p{
+  width:75% ;
+  font-size: 1.1vw;
+  font-weight: 400;
+  
+}
+#page2-right{
+  height: 100%;
+  width: 50%;
+  /* background-color: #555; */
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.right-elem{
+  position: relative;
+  background-color: red;
+  padding-top: 2vw;
+  padding-bottom: 6vw;
+}
+.right-elem h2{
+  font-size: 1.2vw;
+  font-weight: 400;
+  
+}
+.right-elem img{
+  height: 7vw;
+  width: 7vw;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+}
